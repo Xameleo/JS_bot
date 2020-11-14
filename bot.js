@@ -30,7 +30,7 @@ client.on('message', async message => {
 
     await exp(message.author)
 })
-client.login("NjY5MTk4MDYyOTE2NDY4NzQ3.XicVUw.-dDHTROqBqJFDBBcYo9yc6BrPqY");
+client.login("login");
 client.on("ready", ()=> {
     console.log( 'bot online');
    // client.user.setPresence({status: "Jopa",game:{ "TOXIC",type:0}});
@@ -40,8 +40,8 @@ client.on("message", async(message) => { //В случае если бот за�
 if(message.content == Prefix+"hello"){ //Он проверит если его контент (content) равняется фразе "!privet"
 message.reply("Привет! :wave:"); 
 }
-if(message.content == Prefix+"q"+" ты пидор?"){
-		message.reply("Сам ты пидор!!!");
+if(message.content == Prefix+"q"+" ты ----?"){
+		message.reply("Сам ты ----!!!");
 		//break;
 		ans=true;
 		//continue;
